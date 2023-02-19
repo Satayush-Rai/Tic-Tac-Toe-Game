@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cardview_dark_background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Message"
+            android:textColor="#00FF00"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnsa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@drawable/container"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:text="Start Again!"
+            android:outlineSpotShadowColor="@color/purple_700"
+            android:outlineAmbientShadowColor="@color/white"
+            android:backgroundTint="@color/design_default_color_primary_variant"
+            android:textColor="#00FF00"/>
+    </LinearLayout>
+
+</RelativeLayout>
